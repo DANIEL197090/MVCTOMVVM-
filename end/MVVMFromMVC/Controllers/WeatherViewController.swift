@@ -63,7 +63,7 @@ class WeatherViewController: UIViewController {
   @IBAction func promptForLocation(_ sender: Any) {
     //1
     let alert = UIAlertController(
-      title: "Choose location",
+      title: "Choose a location",
       message: nil,
       preferredStyle: .alert)
     alert.addTextField()
